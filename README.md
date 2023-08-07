@@ -67,7 +67,7 @@
 
 При использовании переключателя rm = true в файле main.tf, означает, что при создании контейнера docker Terraform не будет проверять этот контейнер после создания.
 
-![monitoring](
+![monitoring](https://github.com/12sergey12/Terraform_01/blob/main/images/7.1_8.png)
 
 ------
 
