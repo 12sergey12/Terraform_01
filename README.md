@@ -65,9 +65,7 @@
 
 9. Объясните, почему при этом не был удалён docker-образ **nginx:latest**. Ответ подкрепите выдержкой из документации [**провайдера docker**](https://docs.comcloud.xyz/providers/kreuzwerker/docker/latest/docs).  
 
-При использовании переключателя rm = true в файле main.tf, означает, что при создании контейнера docker Terraform не будет проверять этот контейнер после создания.
-
-![monitoring](https://github.com/12sergey12/Terraform_01/blob/main/images/7.1_8.png)
+Так как у нас прописано в файле main.tf keep_locally (логическое значение) true, значит образ Docker не будет удален при операции уничтожения. 
 
 ------
 
